@@ -25,7 +25,7 @@ defer initialization)
 import { instantiate, libName, Pty } from "jsr:@sigma/pty-ffi/noinit";
 
 if (Deno.build.standalone) {
-  await instantiate(`${import.meta.dirname}/${libName}`);
+  await instantiate(`${import.meta.dirname}/${libName()}`);
 } else {
   await instantiate();
 }

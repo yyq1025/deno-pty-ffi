@@ -12,7 +12,7 @@ The no init module expects the user to initialize the library before using it.
 import { Pty, instantiate, libName } from "jsr:@sigma/pty-ffi/noinit";
 
 if (Deno.build.standalone) {
-  await instantiate(`${import.meta.dirname}/${libName}`);
+  await instantiate(`${import.meta.dirname}/${libName()}`);
 } else {
   await instantiate();
 }
