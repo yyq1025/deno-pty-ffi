@@ -1,0 +1,1 @@
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/libpty.dylib: /Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/src/lib.rs /Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/src/utils.rs

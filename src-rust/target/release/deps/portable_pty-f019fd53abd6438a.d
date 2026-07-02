@@ -1,0 +1,10 @@
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/deps/portable_pty-f019fd53abd6438a.d: /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/lib.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/cmdbuilder.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/unix.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/serial.rs
+
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/deps/libportable_pty-f019fd53abd6438a.rlib: /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/lib.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/cmdbuilder.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/unix.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/serial.rs
+
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/deps/libportable_pty-f019fd53abd6438a.rmeta: /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/lib.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/cmdbuilder.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/unix.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/serial.rs
+
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/lib.rs:
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/cmdbuilder.rs:
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/unix.rs:
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/portable-pty-0.8.1/src/serial.rs:

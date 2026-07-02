@@ -1,0 +1,10 @@
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/deps/serial_unix-c8158a89389bd404.d: /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/lib.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/error.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/poll.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/tty.rs
+
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/deps/libserial_unix-c8158a89389bd404.rlib: /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/lib.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/error.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/poll.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/tty.rs
+
+/Users/yangyueqian/Desktop/projects/sidecode/deno-pty-ffi/src-rust/target/release/deps/libserial_unix-c8158a89389bd404.rmeta: /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/lib.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/error.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/poll.rs /Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/tty.rs
+
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/lib.rs:
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/error.rs:
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/poll.rs:
+/Users/yangyueqian/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/serial-unix-0.4.0/src/tty.rs:
