@@ -1,5 +1,5 @@
 {
-  "name": "@yyq1025/pty-ffi",
+  "name": "@yyq/pty-ffi",
   "version": "0.40.0",
   "exports": {
     ".": "./mod.ts",

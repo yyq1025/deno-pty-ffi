@@ -26,7 +26,7 @@ a simple interface
 ## Usage
 
 ```ts
-import { Pty } from "jsr:@yyq1025/pty-ffi";
+import { Pty } from "jsr:@yyq/pty-ffi";
 
 const pty = new Pty("bash");
 
@@ -43,7 +43,7 @@ For high-throughput consumers (terminals, proxies) read raw bytes and let the
 consumer decode:
 
 ```ts
-import { Pty } from "jsr:@yyq1025/pty-ffi";
+import { Pty } from "jsr:@yyq/pty-ffi";
 
 const pty = new Pty("bash");
 const decoder = new TextDecoder();
@@ -64,7 +64,7 @@ library before using it. (uesful when using deno compile or when wanting to
 defer initialization)
 
 ```ts
-import { instantiate, libName, Pty } from "jsr:@yyq1025/pty-ffi/noinit";
+import { instantiate, libName, Pty } from "jsr:@yyq/pty-ffi/noinit";
 
 if (Deno.build.standalone) {
   await instantiate(`${import.meta.dirname}/${libName()}`);
