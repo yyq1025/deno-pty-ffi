@@ -106,7 +106,7 @@ export async function instantiate(libPath?: string): Promise<void> {
 
   const name = "pty";
   const url =
-    `https://github.com/sigmaSd/deno-pty-ffi/releases/download/${metadata.version}`;
+    `https://github.com/yyq1025/deno-pty-ffi/releases/download/${metadata.version}`;
 
   LIBRARY = await plug.dlopen(
     {

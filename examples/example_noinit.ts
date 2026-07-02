@@ -1,4 +1,4 @@
-import { instantiate, libName, Pty } from "@sigma/pty-ffi/noinit";
+import { instantiate, libName, Pty } from "@yyq1025/pty-ffi/noinit";
 
 if (Deno.build.standalone) {
   await instantiate(`${import.meta.dirname}/${libName}`);

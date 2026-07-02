@@ -7,7 +7,7 @@ a simple interface
 ## Usage
 
 ```ts
-import { Pty } from "jsr:@sigma/pty-ffi";
+import { Pty } from "jsr:@yyq1025/pty-ffi";
 
 const pty = new Pty("bash");
 

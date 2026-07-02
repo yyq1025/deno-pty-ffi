@@ -9,7 +9,7 @@ The no init module expects the user to initialize the library before using it.
 ## Usage
 
 ```ts
-import { Pty, instantiate, libName } from "jsr:@sigma/pty-ffi/noinit";
+import { Pty, instantiate, libName } from "jsr:@yyq1025/pty-ffi/noinit";
 
 if (Deno.build.standalone) {
   await instantiate(`${import.meta.dirname}/${libName()}`);
