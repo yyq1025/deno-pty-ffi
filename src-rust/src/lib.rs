@@ -344,7 +344,6 @@ pub unsafe extern "C" fn pty_read(pty_ptr: *mut Pty, result_ptr: *mut usize) -> 
     }
 }
 
-
 /// Reads pending PTY output as RAW BYTES (no UTF-8 decoding).
 ///
 /// `result_ptr` must point to a buffer of TWO usize slots:

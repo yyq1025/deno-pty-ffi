@@ -104,17 +104,21 @@ export async function instantiate(libPath?: string): Promise<void> {
     return;
   }
 
+  const isLocalDev = !!Deno.env.get("RUST_LIB_PATH");
   const name = "pty";
-  const url =
-    `https://github.com/sigmaSd/deno-pty-ffi/releases/download/${metadata.version}`;
+  const url = isLocalDev
+    ? Deno.env.get("RUST_LIB_PATH")!
+    : `https://github.com/sigmaSd/deno-pty-ffi/releases/download/${metadata.version}`;
 
   LIBRARY = await plug.dlopen(
     {
       name,
-      url: Deno.env.get("RUST_LIB_PATH") || url,
+      url,
       // reload cache if developping locally
-      cache: Deno.env.get("RUST_LIB_PATH") ? "reloadAll" : "use",
-      suffixes: {
+      cache: isLocalDev ? "reloadAll" : "use",
+      // cargo build outputs libpty.so/libpty.dylib (no arch suffix),
+      // while GitHub release artifacts are named with arch suffix.
+      suffixes: isLocalDev ? {} : {
         linux: {
           aarch64: "_aarch64",
           x86_64: "_x86_64",
