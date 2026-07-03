@@ -328,7 +328,7 @@ export class Pty {
     // deno-lint-ignore no-this-alias
     const ptyInstance = this;
     let isCancelled = false; // Flag for cancellation
-    let currentTimeoutId: number | undefined = undefined; // <--- Store timer ID
+    let currentTimeoutId: ReturnType<typeof setTimeout> | undefined = undefined; // <--- Store timer ID
 
     // Helper to clear the timeout reliably
     function clearTimeoutIfActive() {
